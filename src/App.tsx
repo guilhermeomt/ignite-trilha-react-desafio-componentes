@@ -62,6 +62,8 @@ export function App() {
         handleClickButton={handleClickButton}
         selectedGenreId={selectedGenreId}
       />
+
+      <Content movies={movies} selectedGenre={selectedGenre} />
     </div>
   );
 }
